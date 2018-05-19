@@ -4,24 +4,18 @@
 pacman -S sudo bash-completion git networkmanager wget xdotool htop
 EDITOR=nano visudo
 
-# yaourt
-mkdir /tmp/yaourtsetup
-cd /tmp/yaourtsetup
-git clone https://aur.archlinux.org/package-query.git
-chmod -R 777 package-query
-cd package-query
+# aurman
+mkdir /tmp/aurmansetup
+cd /tmp/aurmansetup
+git clone https://aur.archlinux.org/aurman.git
+chmod -R 777 aurman
+cd aurman
 sudo -u nobody makepkg -sri
-cd ..
-rm -rf package-query
-git clone https://aur.archlinux.org/yaourt.git
-chmod -R 777 yaourt
-cd yaourt
-sudo -u nobody makepkg -si
 cd
-rm -rf /tmp/yaourtsetup
+rm -rf /tmp/aurmansetup
 
 # xorg and drivers
-pacman -S xorg-server xorg-server-utils xf86-video-intel xf86-input-synaptics bluez bluez-utils
+pacman -S xorg-server xorg-apps xf86-video-intel xf86-input-synaptics bluez bluez-utils
 
 # desktop
 pacman -S openbox openbox-themes obconf oblogout lxappearance-obconf-gtk3 lightdm light-locker lightdm-gtk-greeter compton plank stalonetray slock
