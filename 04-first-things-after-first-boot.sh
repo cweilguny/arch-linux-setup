@@ -5,7 +5,7 @@ USERNAME=insertusernamehere
 HOSTNAME=set.your.hostname
 TIMEZONE=Europe/Vienna
 KEYMAP=de-latin1
-LOCALE=en_US.UTF-8
+LOCALE=LANG=en_US.UTF-8
 
 # setup wifi
 wifi-menu
