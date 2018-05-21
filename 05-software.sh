@@ -2,7 +2,16 @@
 
 # useful system stuff
 pacman -S sudo bash-completion git networkmanager wget xdotool htop
+
+echo edit sudoers
+echo [press any key to continue]
+read
 EDITOR=nano visudo
+
+echo enable multilib in pacman config
+echo [press any key to continue]
+read
+nano /etc/pacman.conf
 
 # aurman
 mkdir /tmp/aurmansetup
