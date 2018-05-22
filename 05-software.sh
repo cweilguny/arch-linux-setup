@@ -14,7 +14,7 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
 	firefox geany gimp git gnome-keyring gvfs-smb htop i3 jdk10-openjdk libreoffice-fresh \
 	lib32-glu lib32-gtk2 lib32-libidn lib32-libxml2 lib32-libxt lib32-mesa \
 	libsecret lxappearance lxdm lxterminal nano network-manager-applet networkmanager openssh pavucontrol \
-	pcmanfm playerctl pulseaudio rdesktop ristretto rofi scrot seahorse sudo ttf-bitstream-vera \
+	pcmanfm playerctl pulseaudio rdesktop ristretto rofi scrot seahorse speedcrunch sudo ttf-bitstream-vera \
 	ttf-dejavu ttf-liberation tumbler unzip variety wget xbindkeys xclip xdg-user-dirs \
 	xdg-utils xdotool xf86-input-synaptics xf86-video-intel xorg xorg-xinit
 
