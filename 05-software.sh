@@ -11,8 +11,8 @@ nano /etc/pacman.conf
 # install software
 pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bash-completion \
 	blueman bluez bluez-utils compton dialog docker docker-compose feh file-roller filezilla \
-	firefox geany gimp git gvfs-smb htop i3 jdk10-openjdk lib32-glu \
-	lib32-gtk2 lib32-libidn lib32-libxml2 lib32-libxt lib32-mesa \
+	firefox geany gimp git gvfs-smb htop i3 jdk10-openjdk rdesktop \
+	lib32-glu lib32-gtk2 lib32-libidn lib32-libxml2 lib32-libxt lib32-mesa \
 	lxappearance lxdm lxterminal nano network-manager-applet networkmanager pavucontrol \
 	pcmanfm playerctl pulseaudio ristretto rofi scrot sudo ttf-bitstream-vera \
 	ttf-dejavu ttf-liberation tumbler unzip variety wget xbindkeys xclip xdg-user-dirs \
