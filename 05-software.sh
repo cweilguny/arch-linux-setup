@@ -13,7 +13,7 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
 	blueman bluez bluez-utils compton dialog docker docker-compose feh file-roller filezilla \
 	firefox geany gimp git gvfs-smb htop i3 jdk10-openjdk libreoffice-fresh \
 	lib32-glu lib32-gtk2 lib32-libidn lib32-libxml2 lib32-libxt lib32-mesa \
-	lxappearance lxdm lxterminal nano network-manager-applet networkmanager pavucontrol \
+	lxappearance lxdm lxterminal nano network-manager-applet networkmanager openssh pavucontrol \
 	pcmanfm playerctl pulseaudio rdesktop ristretto rofi scrot sudo ttf-bitstream-vera \
 	ttf-dejavu ttf-liberation tumbler unzip variety wget xbindkeys xclip xdg-user-dirs \
 	xdg-utils xdotool xf86-input-synaptics xf86-video-intel xorg xorg-xinit
@@ -36,4 +36,4 @@ sudo -u nobody makepkg -sri
 cd
 rm -rf /tmp/aurmansetup
 
-sudo -u nobody aurman -S acroread google-chrome numix-circle-icon-theme-git nvm spotify
+sudo -u nobody aurman -S acroread google-chrome numix-circle-icon-theme-git spotify
