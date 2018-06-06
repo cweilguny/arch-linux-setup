@@ -3,7 +3,7 @@
 # install software
 pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-tools bash-completion \
 	blueman bluez bluez-utils compton dialog docker docker-compose feh file-roller filezilla fwupd \
-	firefox geany gimp git gnome-keyring gvfs-smb htop i3 jdk10-openjdk libreoffice-fresh \
+	firefox geany gimp git gnome-keyring gvfs-mtp gvfs-smb htop i3 jdk10-openjdk libreoffice-fresh \
 	libsecret lxappearance lxdm lxterminal mysql nano network-manager-applet networkmanager \
 	networkmanager-openconnect openssh p7zip pavucontrol pcmanfm playerctl pulseaudio rdesktop \
 	ristretto rofi rsync scrot seahorse speedcrunch sudo ttf-bitstream-vera ttf-dejavu \
