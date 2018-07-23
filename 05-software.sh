@@ -5,10 +5,10 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
 	blueman bluez bluez-utils compton dialog docker docker-compose feh file-roller filezilla fwupd \
 	firefox geany gimp git gnome-disk-utility gnome-keyring gvfs-mtp gvfs-smb htop i3 jdk10-openjdk \
 	libreoffice-fresh libsecret lxappearance lxdm lxterminal mysql nano network-manager-applet \
-	networkmanager networkmanager-openconnect openssh p7zip pavucontrol thunar playerctl pulseaudio rdesktop \
-	ristretto rofi rsync scrot seahorse speedcrunch sudo ttf-bitstream-vera ttf-dejavu \
-	ttf-liberation tumbler unzip variety virtualbox wget xbindkeys xclip xdg-user-dirs xdg-utils xdotool \
-	xf86-input-libinput xf86-video-intel xorg xorg-xinit
+	networkmanager networkmanager-openconnect openssh p7zip parcellite pavucontrol pulsemixer thunar \
+	playerctl pulseaudio rdesktop ristretto rofi rsync screenfetch scrot seahorse speedcrunch sudo ttf-bitstream-vera \
+	ttf-dejavu ttf-liberation tumbler unzip variety virtualbox wget xbindkeys xclip xdg-user-dirs xdg-utils \
+	xdotool xf86-input-libinput xf86-video-intel xorg xorg-xinit
 
 # enable services
 systemctl enable {lxdm,docker,NetworkManager,mysql}
