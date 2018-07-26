@@ -10,8 +10,11 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
 	ttf-dejavu ttf-liberation tumbler unzip variety virtualbox wget xbindkeys xclip xdg-user-dirs xdg-utils \
 	xdotool xf86-input-libinput xf86-video-intel xorg xorg-xinit
 
+# needed before mysqld service is enabled
+mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+
 # enable services
-systemctl enable {lxdm,docker,NetworkManager,mysql}
+systemctl enable {lxdm,docker,NetworkManager,mysqld}
 
 echo
 echo "====================================="
