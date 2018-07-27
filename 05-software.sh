@@ -7,7 +7,7 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
 	libreoffice-fresh libsecret lxappearance lxdm lxterminal mysql nano network-manager-applet \
 	networkmanager networkmanager-openconnect openssh p7zip parcellite pavucontrol pulsemixer \
 	playerctl pulseaudio rdesktop ristretto rofi rsync screenfetch scrot seahorse speedcrunch sudo \
-	thunar transmission-gtk ttf-bitstream-vera ttf-dejavu ttf-liberation tumbler unzip variety virtualbox \
+	thunar transmission-gtk ttf-bitstream-vera ttf-dejavu ttf-liberation tumbler unzip variety virtualbox virtualbox-host-modules-arch \
 	wget xbindkeys xclip xdg-user-dirs xdg-utils xdotool xf86-input-libinput xf86-video-intel xorg xorg-xinit
 
 # needed before mysqld service is enabled
