@@ -2,7 +2,7 @@
 
 # install software
 pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-tools bash-completion \
-	blueman bluez bluez-utils compton cups dialog docker docker-compose exfat-utils feh file-roller filezilla fwupd \
+	blueman bluez bluez-utils compton cups dialog docker docker-compose exfat-utils feh file-roller filezilla flameshot fwupd \
 	firefox geany gimp git gnome-disk-utility gnome-keyring gvfs-gphoto2 gvfs-mtp gvfs-smb htop i3 jdk10-openjdk \
 	libreoffice-fresh libsecret lxappearance lxdm lxterminal mysql nano network-manager-applet \
 	networkmanager networkmanager-openconnect openssh p7zip parcellite pavucontrol pulsemixer \
