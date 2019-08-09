@@ -34,4 +34,4 @@ sudo -u nobody makepkg -sri
 cd
 rm -rf /tmp/aurmansetup
 
-sudo -u nobody aurman -S google-chrome numix-circle-icon-theme-git spotify virtualbox-ext-oracle kyocera-cups
+sudo -u nobody aurman -S google-chrome numix-circle-icon-theme-git spotify virtualbox-ext-oracle kyocera-cups mirrorlist-manager
