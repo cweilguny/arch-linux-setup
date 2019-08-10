@@ -32,4 +32,4 @@ sudo -u nobody makepkg -sri
 cd
 rm -rf /tmp/aurmansetup
 
-sudo -u nobody yay -S numix-circle-icon-theme-git spotify virtualbox-ext-oracle kyocera-cups mirrorlist-manager
+sudo -u nobody yay -S numix-circle-icon-theme-git spotify mirrorlist-manager
