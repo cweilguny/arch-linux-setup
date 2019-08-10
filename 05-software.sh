@@ -2,7 +2,7 @@
 
 # install software
 pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-tools bash-completion \
-	blueman bluez bluez-utils compton cups dialog docker docker-compose exfat-utils feh file-roller filezilla flameshot fwupd \
+	blueman bluez bluez-utils chromium compton cups dialog docker docker-compose exfat-utils feh file-roller filezilla flameshot fwupd \
 	firefox geany gimp git gnome-disk-utility gnome-keyring gvfs-gphoto2 gvfs-mtp gvfs-smb htop i3 jdk10-openjdk \
 	libreoffice-fresh libsecret lxappearance lxdm lxterminal mysql nano network-manager-applet \
 	networkmanager networkmanager-openconnect openssh p7zip parcellite pavucontrol pulsemixer \
@@ -25,13 +25,11 @@ read
 EDITOR=nano visudo
 
 # aurman
-mkdir /tmp/aurmansetup
-cd /tmp/aurmansetup
-git clone https://aur.archlinux.org/aurman.git
-chmod -R 777 aurman
-cd aurman
+git clone https://aur.archlinux.org/yay.git
+chmod -R 777 yay
+cd yay
 sudo -u nobody makepkg -sri
 cd
 rm -rf /tmp/aurmansetup
 
-sudo -u nobody aurman -S google-chrome numix-circle-icon-theme-git spotify virtualbox-ext-oracle kyocera-cups mirrorlist-manager
+sudo -u nobody yay -S numix-circle-icon-theme-git spotify virtualbox-ext-oracle kyocera-cups mirrorlist-manager
