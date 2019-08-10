@@ -24,12 +24,14 @@ echo "====================================="
 read
 EDITOR=nano visudo
 
-# aurman
+# yay
+mkdir /tmp/yaysetup
+cd /tmp/yaysetup
 git clone https://aur.archlinux.org/yay.git
 chmod -R 777 yay
 cd yay
 sudo -u nobody makepkg -sri
 cd
-rm -rf /tmp/aurmansetup
+rm -rf /tmp/yaysetup
 
 sudo -u nobody yay -S numix-circle-icon-theme-git spotify mirrorlist-manager
