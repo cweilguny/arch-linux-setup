@@ -34,4 +34,4 @@ sudo -u nobody makepkg -sri
 cd
 rm -rf /tmp/yaysetup
 
-sudo -u nobody yay -S numix-circle-icon-theme-git spotify mirrorlist-manager
+sudo -u nobody yay -S systemd-boot-pacman-hook numix-circle-icon-theme-git spotify mirrorlist-manager
