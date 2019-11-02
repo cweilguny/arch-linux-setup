@@ -16,6 +16,7 @@ passwd $USERNAME
 
 # system setup
 timedatectl set-timezone $TIMEZONE
+timedatectl set-ntp true
 hostnamectl set-hostname $HOSTNAME
 localectl set-keymap $KEYMAP
 localectl set-locale $LOCALE
