@@ -11,10 +11,28 @@ locale-gen
 pacman -S iw wpa_supplicant dialog
 
 # install bootloader
-# GRUB
-pacman -S grub efibootmgr os-prober
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
-grub-mkconfig -o /boot/grub/grub.cfg
+# systemd-boot
+bootctl --path=/boot install
+
+cat <<EOT > /boot/loader/loader.conf
+timeout 3
+auto-entries 1
+EOT
+
+cat <<EOT > /boot/loader/entries/arch.conf
+title   Arch Linux
+linux   /vmlinuz-linux
+initrd  /intel-ucode.img
+initrd  /initramfs-linux.img
+#options root=UUID=719a61f0-10e9-4b69-ba7d-515b2f645a9d rw
+options root=LABEL=arch_os rw
+EOT
+
+
+# or alternatively GRUB
+#pacman -S grub efibootmgr os-prober
+#grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
+#grub-mkconfig -o /boot/grub/grub.cfg
 
 # or alternatively REFIND
 #pacman -S refind-efi
