@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# enable NetworkManager so we have network after reboot
+systemctl enable NetworkManager
+
 # set a password for root
 passwd
 
