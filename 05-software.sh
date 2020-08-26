@@ -11,7 +11,7 @@ pacman -Sy acpi alsa-utils ansible arc-gtk-theme arc-icon-theme autocutsel bind-
     wget xclip xdg-user-dirs xdg-utils xdotool xf86-input-libinput xf86-video-intel xorg xorg-xinit
 
 # enable services
-systemctl enable {lxdm,docker,NetworkManager,org.cups.cupsd}
+systemctl enable {lxdm,docker,NetworkManager,org.cups.cupsd,bluetooth}
 
 echo
 echo "====================================="
